@@ -54,14 +54,14 @@ Langkah-Langkah
 4. (Sesuai petunjuk installasi) Pada terminal, berikan perintah <b>composer install</b>. Ini yang perlu koneksi internet.
 5. Composer akan menginstall dependency paket dari source code tersebut hingga selesai.
 6. Jalankan perintah php artisan, untuk menguji apakah perintah artisan Laravel bekerja.
-7. Buat database baru (kosong) pada mysql (via phpmyadmin) dengan nama <b>arkademy_tipef</b>.
+7. Buat database baru (kosong) pada mysql (via phpmyadmin) dengan nama <b>penduduk</b>.
 8. Duplikat file .env.example, lalu rename menjadi .env.
 9. Kembali ke terminal, php artisan key:generate.
 10. Setting koneksi database di file .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
     DB_CONNECTION=mysql
     DB_HOST=localhost
     DB_PORT=3306
-    DB_DATABASE=arkademy_tipef
+    DB_DATABASE=penduduk
     DB_USERNAME=root
     DB_PASSWORD=
 11. Jika hanya ingin membuat tabel tanpa data, jalankan perintah <b>php artisan migrate</b>. Cek di phpmyadmin, seharusnya tabel sudah muncul.
