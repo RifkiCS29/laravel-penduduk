@@ -58,12 +58,12 @@ Langkah-Langkah
 8. Duplikat file .env.example, lalu rename menjadi .env.
 9. Kembali ke terminal, php artisan key:generate.
 10. Setting koneksi database di file .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
-    DB_CONNECTION=mysql
-    DB_HOST=localhost
-    DB_PORT=3306
-    DB_DATABASE=penduduk
-    DB_USERNAME=root
-    DB_PASSWORD=
+    <br>DB_CONNECTION=mysql
+    <br>DB_HOST=localhost
+    <br>DB_PORT=3306
+    <br>DB_DATABASE=penduduk
+    <br>DB_USERNAME=root
+    <br>DB_PASSWORD=
 11. Jika hanya ingin membuat tabel tanpa data, jalankan perintah <b>php artisan migrate</b>. Cek di phpmyadmin, seharusnya tabel sudah muncul.
 12. Jalankan perintah <b>php artisan db:seed</b> untuk mengisi tabel users yang digunakan untuk proses login
     EMAIL = rifki@admin.com
