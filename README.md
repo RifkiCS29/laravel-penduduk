@@ -66,8 +66,8 @@ Langkah-Langkah
     <br>DB_PASSWORD=
 11. Jika hanya ingin membuat tabel tanpa data, jalankan perintah <b>php artisan migrate</b>. Cek di phpmyadmin, seharusnya tabel sudah muncul.
 12. Jalankan perintah <b>php artisan db:seed</b> untuk mengisi tabel users yang digunakan untuk proses login
-    EMAIL = rifki@admin.com
-    PASSWORD = admin
+    <br>EMAIL = rifki@admin.com
+    <br>PASSWORD = admin
 13. Setelah selesai, Jalankan perintah <b>php artisan serve</b> maka dapat diakses dengan http://localhost:8000/
 
 SEKIAN PENJELASAN DARI SAYA, TERIMAKASIH. Created by <b>RIFKI</b>
