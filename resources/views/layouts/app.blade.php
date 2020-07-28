@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Larashop @yield("title")</title>
+  <title>Laravel Penduduk | @yield("title")</title>
   <link rel="stylesheet" href="{{asset('polished/polished.min.css')}}">
   <link rel="stylesheet" href="{{asset('polished/iconic/css/open-iconic-bootstrap.min.css')}}">
   <link rel="shortcut icon" href="{{asset('polished/shop.ico')}}">
@@ -39,7 +39,7 @@
 <body>
 
     <nav class="navbar navbar-expand p-0">
-     <a class="navbar-brand text-center col-xs-12 col-md-3 col-lg-2 mr-0" href="index.html"> Larashop </a>
+     <a class="navbar-brand text-center col-xs-12 col-md-3 col-lg-2 mr-0" href="index.html"> Laravel Penduduk </a>
       <button class="btn btn-link d-block d-md-none" data-toggle="collapse" data-target="#sidebar-nav" role="button" >
         <span class="oi oi-menu"></span>
       </button>

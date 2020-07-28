@@ -69,4 +69,12 @@
             var option = new Option(region.name, region.id, true, true);
             $('#regions').append(option).trigger('change');
 </script>
+  <script>
+    CKEDITOR.replace('address',{
+      filebrowserImageBrowseUrl: '/laravel-filemanager?type=Images',
+      filebrowserImageUploadUrl: '/laravel-filemanager/upload?type=Images&_token=',
+      filebrowserBrowseUrl: '/laravel-filemanager?type=Files',
+      filebrowserUploadUrl: '/laravel-filemanager/upload?type=Files&_token='
+    });
+  </script>
 @endsection
