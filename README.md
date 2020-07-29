@@ -39,6 +39,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+![01 Halaman Login](https://github.com/RifkiCS29/laravel-penduduk/blob/master/public/img/login.png)
+![01 Halaman Home Summary](https://github.com/RifkiCS29/laravel-penduduk/blob/master/public/img/home%20summary.png)
+![01 Halaman Manage Person](https://github.com/RifkiCS29/laravel-penduduk/blob/master/public/img/managePerson.png)
+![01 Halaman Manage Region](https://github.com/RifkiCS29/laravel-penduduk/blob/master/public/img/manageRegion.png)
+
 ## How To Install this Project
 
 - Persiapan
